@@ -6,11 +6,18 @@
 - Frontend is developed using gradio.
 - Backend server is built using fastapi.
 
-#How To Use:
+## Installation
+- Fork this repositary
 - start a virtual machine:
-- python -m venv (vname)
-- .\(vname)\Scripts\activate
-- download requirements:
-- pip install -r requirements.txt
-- To start run app.py using:
-- uvicorn app:app --reload
+```Python
+python -m venv (vname)
+.\(vname)\Scripts\activate
+```
+- run `requirements.txt`
+```Python
+pip install -r requirements.txt
+```
+-To start run app.py using:
+```Python
+uvicorn app:app --reload
+```
